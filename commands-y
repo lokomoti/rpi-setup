@@ -1,0 +1,5 @@
+sudo apt-get update
+sudo apt-get upgrade -y
+
+sudo apt-get install build-essential
+bash <(curl -sL https://raw.githubusercontent.com/node-red/raspbian-deb-package/master/resources/update-nodejs-and-nodered)
