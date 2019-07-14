@@ -45,4 +45,5 @@ mv opencv_contrib-4.0.0 opencv_contrib
 wget https://bootstrap.pypa.io/get-pip.py
 sudo python3 get-pip.py
 
-
+# raspberry AP setup
+wget -q https://git.io/voEUQ -O /tmp/raspap && bash /tmp/raspap
