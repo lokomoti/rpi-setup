@@ -9,7 +9,7 @@ sudo systemctl enable nodered.service
 node-red-stop
 
 cd
-cd $HOME/pi/.node-red/
+cd $HOME/.node-red/
 npm install -g node-red-admin
 npm install node-red-dashboard
 npm install node-red-contrib-mqtt-broker
