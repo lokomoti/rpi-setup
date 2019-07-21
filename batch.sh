@@ -47,3 +47,7 @@ sudo python3 get-pip.py
 
 # raspberry AP setup
 wget -q https://git.io/voEUQ -O /tmp/raspap && bash /tmp/raspap
+
+#docker command
+sudo docker run -it --restart on-failure -p 1880:1880 -v ~/node-red-data:/node-red --name mynodered nodered/node-red-docker
+
