@@ -1,0 +1,8 @@
+#!/bin/sh
+#HOME=/root
+#source $HOME/.profile
+#PATH=/opt/bin:/opt/sbin:$PATH
+#/usr/local/bin/node-red
+
+cd /volume1/@appstore/Node.js_v8/usr/local/lib/node_modules/node-red/
+node red.js start
