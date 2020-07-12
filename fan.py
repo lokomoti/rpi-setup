@@ -1,3 +1,9 @@
+# Used with BS170 N-channel mosfet with following connections
+# GND - BS170 Source
+# 5V - Fan VCC
+# Pin 19 - BS170 Gate
+# Fan GND - BS170 Drain
+
 import RPi.GPIO as GPIO
 import time
 import os
